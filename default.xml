@@ -13,6 +13,9 @@
           fetch="https://github.com/DirtyUnicorns/"
           review="gerrit.dirtyunicorns.com" />
 
+ <remote  name="slukk"
+          fetch="https://github.com/slukk/" />
+
  <remote  name="np"
           fetch="https://github.com/NoiseProject/" />
 
@@ -482,6 +485,7 @@
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="android-prebuilts-gcc-linux-x86-arm-arm-eabi-4.9" remote="du" revision="m" />
 
  <!-- vendor -->
+ <project path="vendor/tsm" name="android_vendor_tsm" remote="slukk" revision="m" />
  <project path="vendor/du" name="android_vendor_du" remote="du" revision="m" />
  <project path="vendor/htc" name="android_vendor_htc" remote="du" revision="m" />
  <project path="vendor/huawei" name="android_vendor_huawei" remote="du" revision="m" />
@@ -490,6 +494,7 @@
 
   <!-- slukk -->
   <!-- grouper-specific projects -->
+  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="slukk" revision="m" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="np" revision="m" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="np" revision="m" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="np" revision="m" />
