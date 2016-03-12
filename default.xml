@@ -13,6 +13,9 @@
           fetch="https://github.com/DirtyUnicorns/"
           review="gerrit.dirtyunicorns.com" />
 
+ <remote  name="np"
+          fetch="https://github.com/NoiseProject/" />
+
  <default revision="refs/tags/android-6.0.1_r22"
           remote="aosp"
           sync-c="true"
