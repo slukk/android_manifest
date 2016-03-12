@@ -485,7 +485,6 @@
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="android-prebuilts-gcc-linux-x86-arm-arm-eabi-4.9" remote="du" revision="m" />
 
  <!-- vendor -->
- <project path="vendor/tsm" name="android_vendor_tsm" remote="slukk" revision="m" />
  <project path="vendor/du" name="android_vendor_du" remote="du" revision="m" />
  <project path="vendor/htc" name="android_vendor_htc" remote="du" revision="m" />
  <project path="vendor/huawei" name="android_vendor_huawei" remote="du" revision="m" />
